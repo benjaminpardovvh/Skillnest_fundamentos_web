@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head><!--configuracion-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+</head>
+
+
+<body><!--cuerpo-->
+    <header><!--encabezado-->
+        <h1>Iniciar sesión</h1>
+        <nav><!--barra de navegacion con enlazes-->
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Producctos</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main><!--el plato fuerte/seccion principal-->
+        <section>
+            <article> <!--articulos de informacion especifica-->
+                <h2>Hola, soy un articulo de la etiqueta articulo :3</h2>
+                <hr>
+                <p>Hola, soy un parrafo de articulo de la etiqueta articulo :3</p>
+            </article>
+        </section>
+        <section><!--contenedor como div-->
+            <form action="/login" method="post">
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="recordarme" name="recordarme">
+                    <label for="recordarme">Recordarme</label>
+                </div>
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
+    </main>
+    <footer style="text-align: center;">
+        <hr>
+        Todos los derechos reservados.
+    </footer>
+</body>
+
+</html>
