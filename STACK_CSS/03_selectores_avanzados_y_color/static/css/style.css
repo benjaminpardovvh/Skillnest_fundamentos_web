@@ -1,0 +1,83 @@
+/*selecciona todos los elementos HTML*/
+* {
+    /*outline: 1px solid crimson;*/
+    /*Linea externa de 2px*/
+    margin: 0;
+    /*Formatea espacios externos de elementos HTML*/
+    padding: 0;
+    /*Formatea espacios internos de elementos HTML*/
+    box-sizing: border-box;
+    /*Considera bordes dentro de tamaños de los elementos*/
+}
+
+body {
+    padding: 40px;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+#red {
+    color: tomato;
+}
+
+.quote p {
+    color: darkslategray;
+    font-style: italic;
+}
+
+.header>img {
+    height: 50px;
+}
+
+#container p {
+    /*selector de parrafo dentro de contenedor (#)*/
+    font-size: 16px;
+    /*tamaño de letra*/
+    background-color: #444;
+    /*color de fondo*/
+    color: white;
+    /*color de la letra*/
+}
+
+#container p.highlight {
+    font-weight: bold;
+    color: gold;
+}
+
+form {
+    padding: 20px;
+}
+
+input[type="text"] {
+    /*seleccion de elementos a travez de su propiedad (tipe="text")*/
+    border: 2px solid royalblue;
+    padding: 3px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: mediumvioletred;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    /*cambia al cursor a mano*/
+}
+
+.color_nombre {
+    color: slateblue;
+}
+
+.color_rgb {
+    color: rgb(218, 112, 214);
+    background-color: #5269b3;
+}
+
+.color_hex {
+    background-color: #108fac;
+}

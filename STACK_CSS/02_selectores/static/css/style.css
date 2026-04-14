@@ -2,11 +2,45 @@
 h1 {
     color: darkcyan;
 }
+
 /*seleccion a través de clases (.)*/
 .rojo {
-    color:red;
+    color: red;
 }
+
 /*seccion a través de ID(#)*/
 #amarillo {
     color: yellow;
+}
+
+/*Sitio de ejemplo*/
+h1 {
+    color: royalblue;
+}
+
+p {
+    text-align: right;
+    /*text-aling: disposición del texto(izquierda-centro-derecha)*/
+}
+
+.is-centered {
+    text-align: center;
+}
+
+.is-orange {
+    color: darkorange;
+}
+
+#container {
+    width: 200px; /*ancho*/
+    height: 200px; /*alto*/
+    padding: 10px; /*espacio interno*/
+}
+
+#avatar {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; /*le da esquinas redondeadas al elemento*/
+    margin-top: 20px; /*espacio externo (superior)*/
+    margin-left: 25px; /*espacio externo (izquierda)*/
 }
