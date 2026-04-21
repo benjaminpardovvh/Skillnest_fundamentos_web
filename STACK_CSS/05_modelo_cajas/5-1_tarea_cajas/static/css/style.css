@@ -36,6 +36,7 @@
     overflow: hidden;
     /*oculta las esquinas indeseadas*/
     border: solid 1px black;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.575);
 }
 
 .encabezadoCaja {
