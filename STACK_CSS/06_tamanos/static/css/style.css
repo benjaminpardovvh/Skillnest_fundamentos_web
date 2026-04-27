@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     /*contabiliza los bordes*/
+    /*outline: solid 1px blueviolet;*/
 }
 
 .encabezado {
@@ -55,3 +56,82 @@
     color: green;
 }
 
+/*
+📦 Manejo del contenido con overflow (hidden, scroll, auto)
+*/
+
+.caja {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+.example1 {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.example2 {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}
+
+.example3 {
+    width: 300px;
+    height: 100px;
+    background-color: red
+}
+
+.hidden {
+    /*oculta todo lo que revalsa*/
+    overflow: hidden;
+}
+
+.scroll {
+    /*le da una barra para subir , bajar o ir a los lados*/
+    overflow: scroll;
+}
+
+.auto {
+    /*le da la barra solo si es necesario*/
+    overflow: auto;
+}
+
+/*
+🎨 Fondo y colores
+*/
+.banner {
+    height: 330px;
+    width: 100%;
+    background: rgb(40, 3, 54) url("/STACK_CSS/06_tamanos/static/images/banner.png") no-repeat center center;
+    background-size: 120%;
+}
+
+/*
+🟫 Bordes y estilos
+*/
+
+
+.aceptar {
+    border: 2px dotted green;
+}
+
+.articulo {
+    border: 1px solid black;
+}
+
+
+/*
+🟢 Bordes redondeados
+*/
+
+
+.boton_redondeado {
+    border-radius: 5px;
+}
+
+.caja redondeada {
+    border-radius: 50%;
+}
