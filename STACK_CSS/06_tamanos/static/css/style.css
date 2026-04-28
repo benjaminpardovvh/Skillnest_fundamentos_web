@@ -26,9 +26,10 @@
 }
 
 /*ejemplos de tamaños de CSS*/
-.aceptar {
+.rechazar {
     width: 100px;
     height: 50px;
+    cursor: pointer;
 }
 
 .caja1 {
@@ -47,13 +48,14 @@
 
 .link1 {
     font-size: 300%;
+    cursor: pointer;
     /*tamaño proporcional*/
 }
 
 .cursiva {
     margin-top: 15px;
     font-style: italic;
-    color: green;
+    color: rgb(137, 0, 183);
 }
 
 /*
@@ -105,8 +107,10 @@
 .banner {
     height: 330px;
     width: 100%;
-    background: rgb(40, 3, 54) url("/STACK_CSS/06_tamanos/static/images/banner.png") no-repeat center center;
+    background: rgb(40, 3, 54) url("/STACK_CSS/06_tamanos/static/images/banner.png") no-repeat fixed center center;
+    /*no-repeat: no permite que la imagen se repita\/ fixed: \/ center:lanza la imagen al centro*/
     background-size: 120%;
+    /*el tamaño del banner en el fondo*/
 }
 
 /*
@@ -116,10 +120,19 @@
 
 .aceptar {
     border: 2px dotted green;
+    background-color: aquamarine;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.row {
+    padding: 30px;
 }
 
 .articulo {
-    border: 1px solid black;
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
 }
 
 
@@ -129,9 +142,64 @@
 
 
 .boton_redondeado {
-    border-radius: 5px;
+    border-radius: 15px;
+    /*redondea las esquinas*/
+    padding: 10px 40px;
+    cursor: pointer;
 }
 
-.caja redondeada {
+.caja_redondeada {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    /*50% radius=circulo perfecto*/
+    background-color: rgb(136, 85, 255);
+    color: white;
+    padding: 13px 15px 12px 17px;
+    cursor: pointer;
+}
+
+.cajita {
+    width: 150px;
+    height: 40px;
+    outline: solid rgb(53, 21, 84);
+}
+
+.box1 {
+    background-color: #BAD6AF;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: lightcoral;
+    padding-top: 0px;
+    /*espacio interno hacia arriba*/
+    padding-right: 5px;
+    /*espacio interno hacia la derecha*/
+    padding-bottom: 0px;
+    /*espacio interno hacia abajo*/
+    padding-left: 5px;
+    /*espacio interno hacia la izquierda*/
+    /*padding: 0px 5px 0px 5px --> aplicando en todos los lados*/
+    /*padding: 0px 5px -->0px en el eje "Y" y 5px en el eje "X"*/
+}
+
+.box3 {
+    background-color: #F8CB9D;
+    margin: 10px;
+    /*margen externo: separa elentos*/
+}
+
+.box4 {
+    background-color: brown;
+    margin: 0px 20px;
+    /*eje "X" modificado con margin*/
+    padding: 10px 0px;
+    /*eje "Y" modificado con padding*/
+}
+
+.box5 {
+    background-color: royalblue;
+    float: left;
+    width: 50%;
 }
