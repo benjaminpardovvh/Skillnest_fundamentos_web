@@ -6,7 +6,11 @@
 }
 
 body {
-    background-color: #DAD8D7;
+    padding: 50px 5%;
+}
+
+.Bad {
+    width: 100%;
 }
 
 .BillieJean {
@@ -17,20 +21,36 @@ body {
     padding: 20px;
 }
 
+.BillieJean h1 {
+    font-size: 30px;
+}
+
 .OffTheWall {
     background-color: #2D5FDD;
+    text-align: center;
+    height: 600px;
+    padding:40px 0;
+    width: 23%;
 }
 
 .Thriller {
+    vertical-align: top;
+    width: 70%;
+    height: 4%;
+}
+
+.Vanity {
     background-color: #E41F13;
 }
 
 .Abc {
-    border-radius: 15px;
+    border-radius: 25px;
     border: none;
-    padding: 10px 30px;
+    padding: 14px 13px;
     background-color: #FEEE32;
-
+    margin-bottom: 13px;
+    display: inline-block;
+    width: 70%;
 }
 
 .Abc:hover {
@@ -42,6 +62,8 @@ body {
     display: inline-block;
     background-color: #FEF405;
     margin: 10px 5px;
+    height: 200px;
+    width: 29%;
 }
 
 .AdachiRei {
@@ -53,7 +75,7 @@ body {
     color: #8F2587;
     border: none;
     padding: 10px 30px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .SpokenFor:hover {

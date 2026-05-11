@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*outline: solid 1px bluepurple;*/
+}
+
+body {
+    background-color: #DAD8D7;
+    padding: 40px 5%;
+    font-family: sans-serif;
+}
+
+/*Encabezado*/
+.BillieJean {
+    background-color: #1F8513;
+    color: white;
+    text-align: center;
+    margin: 10px 90px;
+    padding: 30px 0px;
+}
+
+.BillieJean h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/*contenedor principal*/
+.Bad {
+    width: 100%;
+}
+
+/*Recuadro Azul*/
+.OffTheWall {
+    background-color: #2D5FDD;
+    padding: 40px 0px;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    height: 500px;
+}
+
+/*Recuadro Rojo*/
+.Vanity {
+    background-color: #E31C11;
+    width: 100%;
+    padding: 20px;
+}
+
+/*el texto indisinguible*/
+.Chase {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.linea {
+    background-color: #c6c6c6;
+    height: 8px;
+    margin-top: 16px;
+    width: 95%;
+    padding: 6px;
+}
+
+.corta {
+width: 68%;
+}
+
+/*botones*/
+.Abc {
+    border-radius: 25px;
+    border: none;
+    padding: 12px 0px;
+    background-color: #FEEE32;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 70%;
+}
+
+/*La gran caja que contiene la seccion de contenido*/
+.Thriller {
+    display: inline-block;
+    width: 70%;
+    margin-left: 4%;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.Abc:hover {
+    background-color: #918c03;
+}
+
+/*Cuadrados Amarillos*/
+.BeatIt {
+    padding: 70px;
+    display: inline-block;
+    background-color: #FEF405;
+    margin: 10px 5px;
+    width: 31%;
+    height: 200px;
+}
+
+/*Recuadro Morado*/
+.AdachiRei {
+    background-color: #8F2587;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    margin-left: 1%;
+    font-size: 16px;
+}
+
+/*Boton del recuadro Morado*/
+.SpokenFor {
+    background-color: #EFE9ED;
+    display: inline-block;
+    color: #8F2587;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.SpokenFor:hover {
+    background-color: #a5a2a4;
+    color: #4f0d4a;
+}
