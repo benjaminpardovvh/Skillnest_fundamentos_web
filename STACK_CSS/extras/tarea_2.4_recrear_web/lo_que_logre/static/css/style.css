@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 50px 5%;
+    padding: 40px 5%;
 }
 
 .Bad {
@@ -37,10 +37,13 @@ body {
     vertical-align: top;
     width: 70%;
     height: 4%;
+    display: inline-block;
 }
 
 .Vanity {
     background-color: #E41F13;
+    padding: 10px;
+    width: 100%;
 }
 
 .Abc {
@@ -68,6 +71,10 @@ body {
 
 .AdachiRei {
     background-color: #8F2587;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 23px;
+    margin-left: 1%;
 }
 
 .SpokenFor {
