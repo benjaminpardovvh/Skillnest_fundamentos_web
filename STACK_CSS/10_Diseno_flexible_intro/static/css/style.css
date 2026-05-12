@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* Activa flexbox en este contenedor */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.item {
+    background-color: #00ade5;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.row {
+    flex-direction: row;
+    /*dirección en  filas*/
+}
+
+.column {
+    flex-direction: column;
+    /*dirección en columnas*/
+}
+
+.start {
+    justify-content: flex-start;
+    /*alinear a la izquierda*/
+}
+
+.center {
+    justify-content: center;
+    /*alinear al centro*/
+}
+
+.space-between {
+    justify-content: space-between;
+    /*distribucion perfecta*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.contenedor {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    /* Propiedades flexbox */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elementos {
+    margin: 10px;
+    background-color: #00ade5;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
