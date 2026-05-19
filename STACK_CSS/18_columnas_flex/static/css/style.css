@@ -2,15 +2,16 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
+
 }
 
 /* Contenedor de filas */
 .row {
     display: flex;
     gap: 10px;
-    padding: 5px;
+    padding-top: 10px;
 }
 
 /* Estilos generales para columnas */
@@ -22,6 +23,12 @@ body {
     align-items: center;
     padding: 9px;
     text-align: center;
+}
+
+.row :hover {
+    background-color: #208db9;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
 
 /* Ajuste de tamaños específicos */
