@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: sans-serif;
+    color: #222121;
+}
+
+.header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/*diseño NAV*/
+
+.nav {
+    background-color: #334155;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    /*centrar contenido con flex*/
+    gap: 20px;
+    /*separacion de elemntos con flex*/
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    padding: 30px;
+}
+
+.seccion {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgb(46, 46, 46);
+}
+
+/*contenedor de cajas*/
+.contenedor {
+    display: flex;
+    background-color: #bdbcbc;
+    height: 200px;
+    border: 3px dashed #94a3b2;
+    margin-top: 20px;
+}
+
+/*cajas a manipular*/
+.cajas {
+    width: 80px;
+    height: 80px;
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    /*centra en eje x*/
+    align-items: center;
+    /*centra en eje y*/
+}
+
+/*justify-content*/
+/*1.- justify-content + gap*/
+.ejemplo1 {
+    justify-content: center;
+    /*centrar contenido*/
+    gap: 20px;
+}
+
+/*2.- aling-items + gap*/
+.ejemplo2 {
+    align-items: center;
+    gap: 20px;
+}
+
+.ejemplo3 {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ejemplo4 {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.ejemplo5 {
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-grande {
+    text-align: center;
+    font-size: 20px;
+    width: 280px;
+    height: 100px;
+}
+
+.footer {
+    text-align: center;
+}
