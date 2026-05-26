@@ -85,6 +85,13 @@ p {
 .conjunto {
     display: flex;
     flex-direction: row;
+    gap: 30px;
+}
+
+.inicial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 20px;
 }
 
