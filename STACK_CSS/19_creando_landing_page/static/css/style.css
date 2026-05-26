@@ -52,11 +52,7 @@ p {
     cursor: pointer;
     border: none;
     text-decoration: none;
-}
-
-.botones {
     color: white;
-    text-decoration: none;
     font-size: 14px;
 }
 
@@ -71,13 +67,14 @@ p {
     padding: 13px;
     cursor: pointer;
     border: none;
+    color: white;
 }
 
-.cabezario{
+.cabezario {
     text-align: center;
 }
 
-.main-contenedor{
+.main-contenedor {
     display: flex;
     flex-direction: column;
 }
@@ -94,10 +91,6 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-}
-
-.boton-principal a {
-    color: white;
 }
 
 .ver-mas {
@@ -169,9 +162,6 @@ p {
     cursor: pointer;
     border: none;
     font-size: 20px;
-}
-
-.empezar a {
     color: white;
     text-decoration: none;
 }
