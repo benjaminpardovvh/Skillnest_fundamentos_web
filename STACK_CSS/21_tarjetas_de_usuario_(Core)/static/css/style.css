@@ -53,6 +53,7 @@ color: rgb(145, 145, 145);
 .contenido p {
     font-size: 14px;
     color: rgb(66, 66, 66);
+    text-align: center;
 }
 
 .links{
