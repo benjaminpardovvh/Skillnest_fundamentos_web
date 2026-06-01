@@ -63,6 +63,7 @@
     text-align: center;
     flex: 2;
     box-shadow: 0px 4px 5px #616161;
+    border-radius: 6px;
 }
 
 .contenido {
@@ -144,6 +145,7 @@
     display: flex;
     gap: 13px;
     flex-direction: column;
+    border-radius: 6px;
 }
 
 .perfil-ajeno img {
@@ -182,4 +184,8 @@
     box-shadow: 0px 4px 5px #616161;
     gap: 13px;
     padding: 4%;
+}
+
+.solicitud {
+    border-radius: 6px;
 }
