@@ -76,12 +76,12 @@
     font-size: 30px;
 }
 
-.descripcion p{
+.descripcion p {
     font-size: 15px;
     color: grey;
 }
 
-.descripcion h3{
+.descripcion h3 {
     font-size: 17px;
     text-decoration: none;
 }
@@ -157,6 +157,7 @@
 
 .perfil-ajeno {
     font-size: 14px;
+    justify-content: space-between;
 }
 
 .row {
@@ -188,4 +189,46 @@
 
 .solicitud {
     border-radius: 6px;
+}
+
+.aceptar-rechazar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_aceptar-rechazar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.si,
+.no {
+    border-radius: 50%;
+    color: white;
+    width: 19px;
+    text-align: center;
+    height: 19px;
+    cursor: pointer;
+}
+
+.si:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.no:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.si {
+    background-color: green;
+}
+
+.no {
+    background-color: red;
 }
