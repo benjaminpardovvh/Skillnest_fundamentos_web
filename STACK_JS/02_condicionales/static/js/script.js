@@ -63,10 +63,11 @@ function ejercicio2() {
 
 function ejercicio3() {
     let temperatura = prompt(`ingresa la temperatura actual`)
-    if (temperatura < 10) { alert(`Hace frío`) }
-    else if (temperatura >= 10 && temperatura <= 24) { alert(`Temperatura agradable`) }
-    else if (temperatura >= 25) { alert(`Hace calor`) }
-    else { alert(`Temperatura extrema`) }
+    if (temperatura < 10 && temperatura >= 0) { alert(`Hace frío`) }
+    else if (temperatura <= 24) { alert(`Temperatura agradable`) }
+    else if (temperatura > 35) { alert(`Temperatura extrema`) }
+    else if (temperatura < 35) { alert(`Hace calor`) }
+    else { alert(`ingresa valores validos`) }
 }
 
 // ✅ Ejercicio 4: Verificación de administrador
@@ -84,10 +85,10 @@ function ejercicio3() {
 
 function ejercicio4() {
     let usuario = prompt(`ingrese nombre de usuario`)
-    let contraseña = prompt(`ingrese contraseña`)
-    if (usuario !== "admin") { alert(`usuario no encontrado`) }
-    else if (contaseña !== 12345) { alert(`contraseña incorrecta`) }
-    else { alert(`Bienvenido administrador`) }
+    let contrasena = prompt(`ingrese contraseña`)
+    if (contrasena === 12345 && usuario === "admin") { alert(`Bienvenido administrador`) }
+    else if (contasena !== 12345) { alert(`contraseña incorrecta`) }
+    else { alert(`usuario no encontrado`) }
 }
 
 // ✅ Ejercicio 5: Sistema de aprobación
@@ -107,14 +108,16 @@ function ejercicio4() {
 //  “Debe asistir a reforzamiento”.
 
 function ejercicio5() {
-    let nota1 = prompt(`ingresa una nota`)
-    let nota2 = prompt(`ingresa una nota`)
-    let nota3 = prompt(`ingresa una nota`)
+    let nota1 = parseInt(prompt(`ingresa una nota`))
+    let nota2 = parseInt(prompt(`ingresa una nota`))
+    let nota3 = parseInt(prompt(`ingresa una nota`))
     let promedio = (nota1 + nota2 + nota3) / 3
+    alert(promedio)
     if (promedio >= 6.0) { alert(`Aprobado con excelencia`) }
     else if (promedio >= 4.0 && promedio <= 5.9) { alert(`Aprobado`) }
-    else if (promedio <= 4.0) { alert(`Reprobado`) }
-    else if (promedio <= 2.0) {alert(`Debe asistir a reforzamiento`)}
+    else if (promedio < 4.0 ) { alert(`Reprobado`) }
+    else if (promedio <= 2.0 && (nota1 <= 2.0 || nota2 <= 2.0 || nota3 <= 2.0)) { alert(`Debe asistir a reforzamiento`) }
+    else {alert(`ingrese valores validos`)}
 }
 
 // 📌 Requisitos Técnicos
