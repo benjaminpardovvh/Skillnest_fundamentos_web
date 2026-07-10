@@ -77,12 +77,49 @@ function ejercicio3() {
     }
 }
 
-function ejercicio4(){
+function ejercicio4() {
     let nombre = prompt(`Ingresa tu nombre:`)
     let añosEmpresa = parseInt(prompt(`Ingrese cuantos años estubo en esta empresa`))
     if (añosEmpresa < 5) {
-        alert(`Usted (${nombre}) no puede recibir la bonificacion 
-por estar muy poco tiempo en la empresa (${añosEmpresa})`)
+        alert(`Usted (${nombre}) no puede recibir la bonificación 
+por estar muy poco tiempo en servicio (${añosEmpresa})`)
     }
-    else if
+    else if (añosEmpresa > 5 && añosEmpresa < 10) {
+        alert(`Usted (${nombre}) puede recibir una bonificación del 5% 
+por sus años de servicio (${añosEmpresa})`)
+    }
+    else if (añosEmpresa > 10) {
+        alert(`Ustes (${nombre}) puede recibir una bonificación del 15%
+por sus años en servicio (${añosEmpresa})`)
+    }
+    else {
+        alert(`ingrese valores validos`)
+    }
+}
+
+function ejercicio5() {
+    let nombre = prompt(`Ingresa tu nombre:`)
+    let velocidad = parseInt(prompt(`Ingresa tu velocidad registrada (KM/H):`))
+    if (velocidad <= 30 && velocidad > 10) {
+        alert(`Usted (${nombre}) ha conseguido 10 puntos de 100 (Lento) (${velocidad}KM/H)`)
+    }
+    else if (velocidad <= 50 && velocidad > 30) {
+        alert(`Usted (${nombre}) ha conseguido 30 puntos de 100 (Regular) (${velocidad}KM/H)`)
+    }
+    else if (velocidad <= 100 && velocidad > 50) {
+        alert(`Usted (${nombre}) ha conseguido 50 puntos de 100 (Rapido) (${velocidad}KM/H)`)
+    }
+    else if (velocidad <= 140 && velocidad > 100) {
+        alert(`Usted (${nombre}) ha conseguido 85 puntos de 100 (Muy rapido) (${velocidad}KM/H)`)
+    }
+    else if (velocidad <= 165 && velocidad > 140) {
+        alert(`Usted (${nombre}) ha conseguido 100 puntos de 100 (Rayo) (${velocidad}KM/H) 
+FELICITACIONES!`)
+    }
+    else if (velocidad > 165) {
+        alert(`Usted (${nombre}) ha excedido el limite de esta competicion (Descalificado) (${velocidad}KM/H)`)
+    }
+    else {
+        alert(`ingrese valores validos`)
+    }
 }
