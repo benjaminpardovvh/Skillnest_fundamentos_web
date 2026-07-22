@@ -14,7 +14,7 @@ function filtrarVideojuegos() {
             recomendados.push(videojuegos[i].nombre);
         }
     }
-    alert("Juegos recomendados: ", recomendados);
+    alert(`Juegos recomendados:  ${recomendados.join(' - ')}`);
 }
 
 //🎵 Contador de canciones favoritas
@@ -34,7 +34,7 @@ function contadorMusica() {
             contador++;
         }
     }
-    alert("La canción", cancionBuscada, "se reprodujo", contador, "veces.");
+    alert(`La canción ${cancionBuscada} se reprodujo ${contador} veces.`);
 }
 
 //🕹️ Organizadores de torneo de videojuegos
@@ -59,5 +59,5 @@ function torneo() {
             grupoActual = [];
         }
     }
-    console.log("Grupos formados: ", grupos);
+    alert(`Grupos formados: ${grupos.join(' ')}`);
 }
