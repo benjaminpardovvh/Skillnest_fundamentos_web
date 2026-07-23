@@ -59,5 +59,5 @@ function torneo() {
             grupoActual = [];
         }
     }
-    alert(`Grupos formados: ${grupos.join(' ')}`);
+    alert(`Grupos formados: ${grupos.join(' - ')}`);
 }
