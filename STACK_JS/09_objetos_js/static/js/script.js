@@ -64,4 +64,20 @@ let corsa = {
     }
 }
 
+let casa = {
+    calle: "Av.libertador Bernando O'Higgins",
+    numero: 1987,
+    habitaciones: 3,
+    mostrarCasa: function () {
+        console.log(`Dirección: ${this.calle}`)
+        console.log(`Numero: ${this.numero}`)
+        console.log(`Habitaciones: ${this.habitaciones}`)
+    },
+    mostrarCasaAlert: function () {
+        alert(`Dirección: ${this.calle}`)
+        alert(`Numero: ${this.numero}`)
+        alert(`Habitaciones: ${this.habitaciones}`)
+    }
+},
+
 
