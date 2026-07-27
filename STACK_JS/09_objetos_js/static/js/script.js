@@ -9,10 +9,10 @@ let hamburguesaEspecial = {
         "Miel"
     ],
     mostrarIngredientes: function () {
-        console.log("Pan:", this.pan);
-        console.log("Carne:", this.carne);
-        console.log("Queso:", this.queso);
-        console.log("Extras:", this.extras.join(", ")
+        alert("Pan:", this.pan);
+        alert("Carne:", this.carne);
+        alert("Queso:", this.queso);
+        alert("Extras:", this.extras.join(", ")
         );
     }
 };
@@ -38,4 +38,30 @@ let jojos = {
     }
 }
 
-console.log(jojos.mostrarNombre())
+
+let corsa = {
+    marca: "Chevrolet",
+    modelo: "el corsa",
+    ano: 2002,
+    potencia: "92 hp",
+    traccion: "Delantera",
+    transmicion: "5 velocidades",
+    caracteristicasCorsa: function () {
+        console.log(`Marca: ${this.marca}`)
+        console.log(`Modelo: ${this.modelo}`)
+        console.log(`Año: ${this.ano}`)
+        console.log(`Potencia: ${this.potencia}`)
+        console.log(`Tracción: ${this.traccion}`)
+        console.log(`Transmición: ${this.transmicion}`)
+    },
+    caracteristicasCorsaAlert: function () {
+        alert(`Marca: ${this.marca}`)
+        alert(`Modelo: ${this.modelo}`)
+        alert(`Año: ${this.ano}`)
+        alert(`Potencia: ${this.potencia}`)
+        alert(`Tracción: ${this.traccion}`)
+        alert(`Transmición: ${this.transmicion}`)
+    }
+}
+
+
