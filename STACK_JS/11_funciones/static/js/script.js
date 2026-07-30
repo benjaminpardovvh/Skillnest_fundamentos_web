@@ -44,6 +44,29 @@ function operatoriaCombinada() {
       d = (a + b) - c
       return d
    }
-   let resultado = operacion(20, 10, 5, 0)
-   alert(`${resultado}`)
+   let coso1 = parseInt(prompt(`ingresa tu primer numero`))
+   let coso2 = parseInt(prompt(`ingresa tu segundo numero`))
+   let coso3 = parseInt(prompt(`ingresa tercer numero`))
+   let resultado = operacion(coso1, coso2, coso3, 0)
+   alert(`tu resultado es: ${resultado}`)
+}
+
+//crear una funcion que resiva un parametro y que permita a traves de un bucle contar hasta este
+//ej: recibe 5 y empieza desde 1: 1-2-3-4-5
+
+function contador() {
+   let numero = parseInt(prompt(`Inserte un numero`))
+   if (numero >= 100) {
+      alert(`ingrese un valor valido`)
+   } else {
+      let lista = contando(numero)
+      function contando(a) {
+         let listado = []
+         for (i = 1; i <= a; i++) {
+            listado.push(i)
+         }
+         return listado
+      }
+      alert(`${lista.join('-')}`)
+   }
 }
