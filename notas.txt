@@ -1,0 +1,2 @@
+fit-content: ajusta el tamaño del elemento en base al contenido?
+indagar más de estó a fondo más tarde

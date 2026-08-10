@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benjamin Pardo">
+    <title>Social blog</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Social blog</h1>
+        <div class="buscar">
+            <input type="text" placeholder="Buscar publicaciones...">
+        </div>
+        <button id="inicio">Iniciar sesión</button>
+    </header>
+    <main class="container">
+        <div class="contenedor">
+            <div class="caja">
+                <h1>Fundamentos en JavaScript</h1>
+                <p><span>Publicado por</span>:Carlos Pérez</p>
+                <p><span>Fecha</span>:02/03/2025</p>
+                <p>JavaScript es un lenguaje de programación que se usa en el desarrollo web.</p>
+                <p>Aprende los conceptos básicos para comenzar a programar.</p>
+                <button class="like">0 Me gusta</button>
+            </div>
+            <div class="caja separador">
+                <h1>Aprende a diseñar con CSS</h1>
+                <p><span>Publicado por</span>:Ana Gómez</p>
+                <p><span>Fecha</span>:01/03/2025</p>
+                <p>El diseño web es una parte parte fundamental en el desarrollo de aplicaciones web.</p>
+                <p>Conoce las propiedades de CSS para crear interfaces atractivas.</p>
+                <button class="like">0 Me gusta</button>
+            </div>
+        </div>
+        <div class="caja-bienvenida">
+            <h2>¡Bienvenido!</h2>
+            <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
+            <button id="verPerfil">Ver perfil</button>
+        </div>
+    </main>
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>

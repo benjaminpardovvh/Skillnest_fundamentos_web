@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F1F2F6;
+}
+
+.header {
+    background-color: #A29BFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.header input {
+    padding: 5px 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 26px;
+    background-color: #F1F2F6;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja {
+    box-shadow: 0px 0px 6px #afafaf;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.caja-bienvenida {
+    box-shadow: 0px 0px 3px #afafaf;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#inicio {
+    background-color: #6b52e0;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.separador {
+    margin-top: 15px;
+}
+
+#verPerfil {
+    padding: 10px 15px;
+    background-color: #00CEC9;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.like {
+    padding: 10px 15px;
+    background-color: #FF7675;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
