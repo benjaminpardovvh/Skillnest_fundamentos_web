@@ -32,20 +32,20 @@ if (boton !== null) {
 //tarea
 /*crear un boton y aplicar condicion al igual que el ejemplo*/
 
-let JAU_ORANGE = document.querySelector(".boton")
+let JAU_ORANGE = document.querySelector("#coso")
 
 JAU_ORANGE.addEventListener("click", function () {
-    if (JAU_ORANGE !== "J-") {
-        JAU_ORANGE.textContent = "-ust kidding";
+    if (JAU_ORANGE !== null) {
+        if (JAU_ORANGE.textContent === "hola, cambio de color") {
+            this.textContent = "ves?";
+            this.style.backgroundColor = "black"
+            this.style.color = "white"
+        } else {
+            this.textContent = "hola, cambio de color"
+            this.style.color = "black"
+            this.style.backgroundColor = "rgb(255, 217, 0)"
+        }
     } else {
-
+        console.log("El boton no existe")
     }
-})
-
-JAU_ORANGE.addEventListener("mouseover", function() {
-    this.innerText = "-ARONA"
-})
-
-JAU_ORANGE.addEventListener("mouseout", function() {
-    this.innerText = "J-"
 })

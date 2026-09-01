@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #3F3F3F;
+    color: white;
+    display: flex;
+    padding: 1vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion {
+    padding: 70px 50px;
+}
+
+.tarjeta {
+    display: flex;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta p {
+    font-weight: bold;
+}
+
+.tarjeta img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.perfil {
+    background-color: #2B9DC0;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.5s ease, transform 0.7s ease
+}
+
+.perfil:hover {
+    transform: scale(1.09);
+    background-color: rgb(4, 63, 166);
+}
+
