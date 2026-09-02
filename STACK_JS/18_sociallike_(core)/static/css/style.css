@@ -73,7 +73,7 @@
     flex-wrap: wrap;
 }
 
-.publicaciones h1 {
+.publicaciones h2 {
     font-size: 20px;
 }
 
@@ -95,7 +95,7 @@
     flex-wrap: wrap;
 }
 
-.contenido h1 {
+.contenido h3 {
     font-size: 17px;
 }
 
