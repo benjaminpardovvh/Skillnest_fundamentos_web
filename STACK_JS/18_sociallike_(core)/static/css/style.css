@@ -15,11 +15,12 @@
     flex-wrap: wrap;
 }
 
-.main {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    padding: 30px;
     justify-content: center;
 }
 
@@ -38,6 +39,7 @@
     border-radius: 20px;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .tarjeta p {
@@ -64,3 +66,65 @@
     background-color: rgb(4, 63, 166);
 }
 
+.publicaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.publicaciones h1 {
+    font-size: 20px;
+}
+
+.publicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contenido h1 {
+    font-size: 17px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.botonLike {
+    background-color: #FFD26B;
+    padding: 7px 20px;
+    height: fit-content;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.4s ease, transform 0.5s ease
+}
+
+.botonLike:hover {
+    transform: scale(1.05);
+    background-color: #d6803a;
+}
+
+.header h1{
+    transition: 0.4s ease, transform 0.5s ease; 
+}
+
+.header h1:hover {
+    transform: scale(1.1);
+}

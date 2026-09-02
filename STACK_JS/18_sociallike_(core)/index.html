@@ -13,40 +13,60 @@
     <header class="header">
         <h1>Social Like</h1>
     </header>
-    <section class="seccion">
-        <aside class="tarjeta">
-            <img src="static/img/ness.png" alt="Foto de perfil">
-            <p>Ness</p>
-            <button class="perfil">Mi perfil</button>
-        </aside>
-    </section>
     <main class="container">
+        <section class="seccion">
+            <aside class="tarjeta">
+                <img src="static/img/ness.png" alt="Foto de perfil">
+                <p>Ness</p>
+                <button class="perfil">Mi perfil</button>
+            </aside>
+        </section>
         <div class="publicaciones">
-            <h1>Ultimas publicaciones</h1>
+            <h1>Últimas publicaciones</h1>
             <article class="publicacion">
-                <h1>
-                    Happy-Happy Village
-                </h1>
-                <p>
-                    Una <a href="https://earthbound.fandom.com/es/wiki/Happy_Happy_Village" target="_blank"
-                        rel="noopener noreferrer">ciudad</a> de lo mas particular... echale un vistazo
-                </p>
+                <div class="contenido">
+                    <h1>
+                        Happy-Happy Village
+                    </h1>
+                    <p>
+                        Una <a href="https://earthbound.fandom.com/es/wiki/Happy_Happy_Village" target="_blank"
+                            rel="noopener noreferrer">ciudad</a> de lo mas particular... echale un vistazo
+                    </p>
+                </div>
+                <div class="boton">
+                    <p id="likeVillageTexto">0 Like(s)</p>
+                    <button class="botonLike" id="likeVillage">Like</button>
+                </div>
             </article>
             <article class="publicacion">
-                <h1>
-                    Paula
-                </h1>
-                <p>
-
-                </p>
+                <div class="contenido">
+                    <h1>
+                        Paula
+                    </h1>
+                    <p>
+                        Mira que <a href="https://earthbound.fandom.com/es/wiki/Ramblin%27_Evil_Mushroom" target="_blank"
+                            rel="noopener noreferrer">cosa mas rara</a>, echale un vistazo.
+                    </p>
+                </div>
+                <div class="boton">
+                    <p id="likePaulaTexto">0 Like(s)</p>
+                    <button class="botonLike" id="likePaula">Like</button>
+                </div>
             </article>
             <article class="publicacion">
-                <h1>
-                    Los Hermanos Fugitivos
-                </h1>
-                <p>
-                    Un grupo muy bueno, <a href="http://" target="_blank" rel="noopener noreferrer">Escuchalos YA</a>.
-                </p>
+                <div class="contenido">
+                    <h1>
+                        Los runaway five
+                    </h1>
+                    <p>
+                        Un grupo muy bueno, <a href="https://www.youtube.com/watch?v=fgAL50414JE&list=PLYp_8WqGUV31fpYu-245ktiJasvMVEzr6&index=1" target="_blank" rel="noopener noreferrer">Escuchalos
+                            YA</a>.
+                    </p>
+                </div>
+                <div class="boton">
+                    <p id="likeRunawayTexto">0 Like(s)</p>
+                    <button class="botonLike" id="likeRunaway">Like</button>
+                </div>
             </article>
         </div>
     </main>
