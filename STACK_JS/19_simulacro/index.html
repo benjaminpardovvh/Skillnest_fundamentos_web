@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benjamin Pardo">
+    <title>TacoPalace</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="izquierda">
+            <img src="static/img/logo.png" alt="Logo">
+            <h1><span class="naranja">Taco</span>Palace</h1>
+        </div>
+        <div class="derecha">
+            <div class="sistemaCuenta">
+                <form action="#">
+                    <input type="email" placeholder="email" name="email" required autocomplete="off" id="email">
+                    <button class="login">Login</button>
+                </form>
+            </div>
+            <div class="carrito">
+                <img src="static/img/carrito.png" alt="Carrito">
+                <p id="contadorCarrito">0</p>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="contenedorComida">
+            <div class="imagenesComida">
+                <img src="static/img/enchiladas.jpg" alt="Enchiladas" class="comida">
+                <p>Enchiladas</p>
+            </div>
+            <div class="imagenesComida">
+                <img src="static/img/tacos.jpg" alt="Tacos" class="comida">
+                <p>Tacos</p>
+            </div>
+            <div class="imagenesComida">
+                <img src="static/img/flautas.jpg" alt="Flautas" class="comida">
+                <p>Flautas</p>
+            </div>
+            <div class="imagenesComida">
+                <img src="static/img/gorditas.jpg" alt="Gorditas" class="comida">
+                <p>Gorditas</p>
+            </div>
+            <div class="imagenesComida">
+                <img src="static/img/tostadas.jpg" alt="Tostadas" class="comida">
+                <p>Tostadas</p>
+            </div>
+            <div class="imagenesComida">
+                <img src="static/img/enfrijoladas.jpg" alt="Enfrijoladas" class="comida">
+                <p>Enfrijoladas</p>
+            </div>
+        </section>
+        <section class="contenedorGrande">
+            <div class="contenido">
+                <div class="textoContenedorGrande">
+                    <p class="textoContenedorGrandet">La mejor variedad en platillos de comida mexicana</p>
+                    <p class="desc">Contamos con <span class="subrayado">servicio</span> a <span class="naranja">
+                            domicilio</span>
+                    </p>
+                </div>
+                <div class="imagenCambiante">
+                    <img src="static/img/comida-mexicana.jpg" alt="Comida mexicana" id="imagenCambiante">
+                </div>
+            </div>
+            <div class="contenedorRecomendados">
+                <h2>Recomendados:</h2>
+                <div class="recomendados">
+                    <img src="static/img/orden-tacos.jpg" alt="Tacos" class="tacos">
+                    <div class="contenidoRecomendados">
+                        <div class="texto">
+                            <p>Orden de Tacos</p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botonOrden" id="boton2">+</button>
+                    </div>
+                </div>
+                <div class="recomendados">
+                    <img src="static/img/orden-flautas.jpg" alt="Flautas" class="flautas">
+                    <div class="contenidoRecomendados">
+                        <div class="texto">
+                            <p>Orden de Flautas</p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botonOrden" id="boton1">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados @2026</p>
+    </footer>
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>

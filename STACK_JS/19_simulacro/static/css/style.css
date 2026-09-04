@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 10px;
+    outline: black solid 2px;
+    background-color: #F7F7F7;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.carrito {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.naranja {
+    color: #FFAC3B;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.sistemaCuenta {
+    display: flex;
+}
+
+.login {
+    background-color: #FF9A00;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width:80%;
+    margin: 0 auto;
+}
+
+.contenedorComida {
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+    background-color: #F9CB9C;
+}
+
+.contenidoComida {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.comida {
+    height: 150px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    padding: 3% 1%;
+    background-color: #C5C5C5;
+}
+
+.textoContenedorGrande {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.textoContenedorGrandet {
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.contenedorGrande {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.desc {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.imagenCambiante {
+    display: flex;
+    flex:2;
+}
+
+#imagenCambiante {
+    width: 100%;
+}
+
+.recomendados {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorRecomendados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.contenidoRecomendados {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botonOrden {
+    color: white;
+    background-color: #FF6400;
+    border-radius: 50%;
+    padding: 10px 14px;
+    border: none;
+}
+
+.tacos,
+.flautas {
+    width: 100%;
+}
+
+.imagenesComida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+}
