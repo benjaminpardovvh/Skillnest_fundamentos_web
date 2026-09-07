@@ -6,7 +6,19 @@ let email = document.querySelector("#email")
 let login = document.querySelector(".login")
 let imagen = document.querySelector("#imagenCambiante")
 
-boton1.addEventListener("click", function() {
+login.addEventListener("click", function (event) {
+    event.preventDefault();
+    //event.preventDefault(); evita que la pagina se recargue y borre todo
+    let valor = email.value;
+    //secuestras el valor justo cuando se efectua
+    if (valor.trim() !== "") {
+        alert(`Bienvenid@: ${valor}`);
+    } else {
+        alert("Por favor, ingresa un correo válido.");
+    }
+});
+
+boton1.addEventListener("click", function () {
     if (boton1 !== null) {
         contador = contador + 1
         carrito.textContent = contador
@@ -15,7 +27,7 @@ boton1.addEventListener("click", function() {
     }
 })
 
-boton2.addEventListener("click", function() {
+boton2.addEventListener("click", function () {
     if (boton2 !== null) {
         contador = contador + 1
         carrito.textContent = contador
@@ -24,10 +36,10 @@ boton2.addEventListener("click", function() {
     }
 })
 
-imagen.addEventListener("mouseover", function() {
+imagen.addEventListener("mouseover", function () {
     this.src = "static/img/comida-mexicana2.jpg"
 })
 
-imagen.addEventListener("mouseout", function() {
+imagen.addEventListener("mouseout", function () {
     this.src = "static/img/comida-mexicana.jpg"
 })
