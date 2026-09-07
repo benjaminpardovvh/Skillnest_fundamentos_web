@@ -14,22 +14,35 @@
     background-color: #F7F7F7;
 }
 
+.izquierda img {
+    height: 35px; 
+}
+
+.izquierda h1 {
+    font-size: 1.3rem; 
+}
+
 .izquierda {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
 .derecha {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .carrito {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
+}
+
+.carrito img {
+    height: 25px; 
 }
 
 .naranja {
@@ -44,112 +57,40 @@
     display: flex;
 }
 
+
+.sistemaCuenta input {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+}
+
 .login {
     background-color: #FF9A00;
     border: none;
-    padding: 5px;
+    padding: 4px 10px;
     color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
 }
+
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
-    width:80%;
+    width: 85%; 
     margin: 0 auto;
 }
 
+
 .contenedorComida {
     display: flex;
-    margin: 5px;
-    gap: 5px;
+    margin: 10px 0;
+    gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1%;
+    padding: 8px;
     background-color: #F9CB9C;
-}
-
-.contenidoComida {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.comida {
-    height: 150px;
-}
-
-.contenido {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 2;
-    padding: 3% 1%;
-    background-color: #C5C5C5;
-}
-
-.textoContenedorGrande {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-}
-
-.textoContenedorGrandet {
-    font-size: 2.6rem;
-    text-align: center;
-}
-
-.contenedorGrande {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.desc {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.imagenCambiante {
-    display: flex;
-    flex:2;
-}
-
-#imagenCambiante {
-    width: 100%;
-}
-
-.recomendados {
-    display: flex;
-    flex-direction: column;
-}
-
-.contenedorRecomendados {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-}
-
-.contenidoRecomendados {
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.botonOrden {
-    color: white;
-    background-color: #FF6400;
-    border-radius: 50%;
-    padding: 10px 14px;
-    border: none;
-}
-
-.tacos,
-.flautas {
     width: 100%;
 }
 
@@ -158,11 +99,139 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    gap: 10px;
-    flex-wrap: wrap;
+    height: 120px; 
+    gap: 5px;
 }
+
+.comida {
+    height: 80px; 
+    width: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.imagenesComida p {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+
+.contenedorGrande {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    align-items: stretch;
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    padding: 15px; 
+    background-color: #C5C5C5;
+    gap: 15px;
+}
+
+.textoContenedorGrande {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 200px; 
+    gap: 10px;
+}
+
+
+.textoContenedorGrandet {
+    font-size: 1.5rem; 
+    text-align: left;
+}
+
+.desc {
+    font-size: 1.1rem; 
+    text-align: left;
+}
+
+
+.imagenCambiante {
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px; 
+}
+
+#imagenCambiante {
+    width: 100%;
+    max-height: 220px; 
+    object-fit: cover; 
+    border-radius: 6px;
+}
+
+
+.contenedorRecomendados {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.contenedorRecomendados h2 {
+    font-size: 1.2rem;
+}
+
+.recomendados {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.tacos,
+.flautas {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.contenidoRecomendados {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.contenidoRecomendados .texto p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.contenidoRecomendados .texto a {
+    font-size: 0.75rem;
+}
+
+.botonOrden {
+    color: white;
+    background-color: #FF6400;
+    border-radius: 50%;
+    padding: 6px 10px; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 
 .footer {
     text-align: center;
+    padding: 15px;
+    font-size: 0.8rem;
+    background-color: #F7F7F7;
+    margin-top: 20px;
 }
