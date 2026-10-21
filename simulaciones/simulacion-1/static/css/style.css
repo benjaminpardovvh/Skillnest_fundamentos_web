@@ -115,7 +115,6 @@
     font-weight: bold;
 }
 
-
 .contenedorGrande {
     display: flex;
     flex-direction: row;
@@ -123,7 +122,6 @@
     width: 100%;
     align-items: stretch;
 }
-
 
 .contenido {
     display: flex;
@@ -144,7 +142,6 @@
     gap: 10px;
 }
 
-
 .textoContenedorGrandet {
     font-size: 1.5rem; 
     text-align: left;
@@ -154,7 +151,6 @@
     font-size: 1.1rem; 
     text-align: left;
 }
-
 
 .imagenCambiante {
     display: flex;
@@ -170,7 +166,6 @@
     object-fit: cover; 
     border-radius: 6px;
 }
-
 
 .contenedorRecomendados {
     display: flex;
@@ -226,7 +221,6 @@
     cursor: pointer;
     font-weight: bold;
 }
-
 
 .footer {
     text-align: center;
